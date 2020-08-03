@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==3.0.9"
+celery = ">=4.4.7"
+redis = ">=3.5.3"
+pillow = "*"
+django-widget-tweaks = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
